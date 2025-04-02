@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { useApiRequest } from "../hooks/useApiRequest";
 import ENVIROMENT from "../config/enviroment";
 import { useParams } from 'react-router-dom';
-import "../styles/CreateChannelModal.css";
 
 const CreateChannelModal = ({ isOpen, onClose }) => {
   const [channelName, setChannelName] = useState("");

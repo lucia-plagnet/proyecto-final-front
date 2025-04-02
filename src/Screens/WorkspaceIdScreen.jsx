@@ -7,6 +7,7 @@ import "../styles/WorkspaceIdScreen.css";
 import CreateChannelModal from "../Components/CreateChannelModal";
 import ChatComponent from "../Components/ChatComponent";
 import ProfileModal from "../Components/ProfileModal";
+
 const WorkspaceIdScreen = () => {
   const { workspaceId } = useParams();
   const { isAuthenticatedState, logout } = useContext(AuthContext);
