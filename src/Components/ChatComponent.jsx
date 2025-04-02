@@ -1,7 +1,6 @@
 import React, { useEffect, useState, useContext } from "react"; // Agregar useContext
 import { useApiRequest } from "../hooks/useApiRequest";
 import ENVIROMENT from "../config/enviroment";
-import "../styles/ChatComponent.css";
 
 const ChatComponent = ({ channelId }) => {
   const [messages, setMessages] = useState([]);
